@@ -1,0 +1,27 @@
+{#-
+    This file was automatically generated - do not edit
+  -#}
+  {% extends "main.html" %}
+  {% block tabs %}
+    {{ super() }}
+    <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
+    <section class="mdx-container">
+      <div class="md-grid md-typeset">
+        <div class="mdx-hero">
+        
+          <div class="mdx-hero__content">
+            <br/>
+            <h1>渗透从入门到放弃</h1>
+            <p>{{ config.site_description }}以及收集部分互联网文章</p>
+            <p>从零开始，面向小白</p>
+            <a href="{{ '/信息收集/外网信息收集/' | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
+              快速开始
+            </a>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  {% endblock %}
+  {% block content %}{% endblock %}
+  {% block footer %}{% endblock %}
